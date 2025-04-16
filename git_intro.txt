@@ -1,0 +1,37 @@
+Git 使用方法介绍：
+
+1. 初始化仓库
+   git init
+
+2. 克隆现有仓库
+   git clone [仓库地址]
+
+3. 添加文件到暂存区
+   git add [文件名] 或 git add .
+
+4. 提交更改
+   git commit -m "提交信息"
+
+5. 查看状态
+   git status
+
+6. 查看提交历史
+   git log
+
+7. 创建分支
+   git branch [分支名]
+
+8. 切换分支
+   git checkout [分支名]
+
+9. 合并分支
+   git merge [分支名]
+
+10. 推送到远程仓库
+    git push origin [分支名]
+
+11. 拉取远程更新
+    git pull origin [分支名]
+
+12. 撤销修改
+    git checkout -- [文件名]
